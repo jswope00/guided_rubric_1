@@ -3,4 +3,3 @@ openai
 requests
 streamlit
 streamlit_lottie
-PIL
