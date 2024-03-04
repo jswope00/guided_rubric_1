@@ -469,11 +469,11 @@ Generally, you will be asked to provided feedback on the students answer based o
             col1, col2 = st.columns([1, 7])  # The ratio 1:7 approximates 15% to 85%
             with col1:
                 if st.session_state[f"phase_{index}_state"] == "pass":
-                    st.image(Image.open('img/robot_checkmark.png'))
+                    st.image('img/robot_checkmark.png')
                 elif st.session_state[f"phase_{index}_state"] == "fail":
-                    st.image(Image.open('img/robot_wrong.png'))
+                    st.image('img/robot_wrong.png')
                 else:
-                    st.image(Image.open('img/robot_pass.png'))
+                    st.image('img/robot_pass.png')
             with col2:
                 stored_summary = st.session_state[f"phase_{index}_summary"]
                 st.write(f"{stored_summary}")
