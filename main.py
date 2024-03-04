@@ -9,7 +9,6 @@ import requests
 import json
 import streamlit as st
 from streamlit_lottie import st_lottie_spinner, st_lottie
-from PIL import Image
 
 
 load_dotenv()
